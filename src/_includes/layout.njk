@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="/css/prism.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>{{ title }}</h1>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">All Posts</a>
+    </nav>
+  </header>
+  <main>
+    {{ content | safe }}
+  </main>
+</body>
+</html>
