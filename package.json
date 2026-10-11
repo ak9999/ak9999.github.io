@@ -19,10 +19,6 @@
     "url": "https://github.com/ak9999/ak9999.github.io/issues"
   },
   "homepage": "https://github.com/ak9999/ak9999.github.io#readme",
-  "volta": {
-    "node": "22.18.0",
-    "npm": "11.5.2"
-  },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2"
